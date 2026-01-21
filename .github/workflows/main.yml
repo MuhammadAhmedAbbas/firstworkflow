@@ -1,8 +1,9 @@
 name: ahmed
 
 on:
- push:
-  branches: [ main }
+  push:
+    branches: [ main ]
+
 jobs:
   demo:
     runs-on: ubuntu-latest
